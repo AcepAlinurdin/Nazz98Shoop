@@ -3,3 +3,4 @@
 [00:00:02.367] Server  LOG     ✓ Ready in 1922ms
 [00:00:02.632] Server  WARN    ⚠ Lockfile was successfully patched, please run "npm install" to ensure @next/swc dependencies are downloaded
 [00:00:33.386] Server  LOG     ✓ Compiled in 5ms
+[00:09:21.813] Server  LOG       Reload env: .env
