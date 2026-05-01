@@ -1,7 +1,22 @@
 node_modules
-# Keep environment variables out of version control
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-/src/generated/prisma
+# Next.js build and cache
+.next/
+out/
+build/
 
+# Production
+dist/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Prisma generated client
 /src/generated/prisma
