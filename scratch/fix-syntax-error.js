@@ -1,0 +1,15 @@
+const fs = require('fs');
+const path = 'd:/Affiliate/next-app/src/app/page.tsx';
+let content = fs.readFileSync(path, 'utf8');
+
+// The specific broken fragment that is causing the error
+const brokenFragment = /\s+\{product\.customLabel && \(\s+<span style=\{\{\s+color: '#1a1a1a',\s+fontSize: '0\.6rem'[\s\S]+?<\/span>\s+\)\}\s+<\/div>\s+\)\}/g;
+
+const newContent = content.replace(brokenFragment, '');
+
+if (newContent !== content) {
+    fs.writeFileSync(path, newContent, 'utf8');
+    console.log('Successfully removed the broken code fragments');
+} else {
+    console.log('Broken fragment not found');
+}

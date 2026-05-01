@@ -1,0 +1,3 @@
+module.exports=[8012,a=>{"use strict";var b=a.i(96165);function c({children:a}){return(0,b.jsxs)("html",{lang:"en",children:[(0,b.jsxs)("head",{children:[(0,b.jsx)("link",{rel:"preconnect",href:"https://fonts.googleapis.com"}),(0,b.jsx)("link",{rel:"preconnect",href:"https://fonts.gstatic.com",crossOrigin:"anonymous"}),(0,b.jsx)("link",{href:"https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap",rel:"stylesheet"})]}),(0,b.jsx)("body",{children:a})]})}a.s(["default",()=>c,"metadata",0,{title:"TrendFinds - Premium TikTok Picks",description:"Curated premium products from TikTok Shop."}])}];
+
+//# sourceMappingURL=next-app_src_app_layout_tsx_b4f7293a._.js.map

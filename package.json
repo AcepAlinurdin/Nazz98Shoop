@@ -1,0 +1,40 @@
+{
+  "name": "next-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "@sparticuz/chromium": "^143.0.4",
+    "axios": "^1.13.6",
+    "bcryptjs": "^3.0.3",
+    "cheerio": "^1.2.0",
+    "jose": "^6.2.3",
+    "next": "^16.1.6",
+    "pg": "^8.20.0",
+    "prisma": "^5.22.0",
+    "puppeteer-core": "^24.38.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "sweetalert2": "^11.26.24"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^25.3.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.3",
+    "eslint-config-next": "^16.1.6",
+    "typescript": "^5.9.3"
+  }
+}
